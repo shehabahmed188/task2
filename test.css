@@ -1,0 +1,45 @@
+.container {
+    width: 90%;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; padding: 10px;
+}
+
+.prodact {
+    width: 25%; /
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+}
+.prodact img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.prodact button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.box{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+body {
+  background-image: url('./3d-car-background-h706rbre4lzn83ot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
